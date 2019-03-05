@@ -24,9 +24,10 @@ h1 {
 input{
   padding: 10px;
   margin: 15px;
-  border-radius: 6px;
+  border-radius: 5px;
   width: 20%;
   font-size: 0.80em;
+  border-style: none;
 }
 
 button {
@@ -34,7 +35,8 @@ button {
   border-radius: 6px;
   margin: 15px;
   font-size: 1em;
-  color: #fff
+  color: #fff;
+  border-style: none;
 }
 
 button#enter:hover {
