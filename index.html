@@ -2,47 +2,43 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>DOM Manipulation</title>
-  <link rel="stylesheet" href="./style.css" type="text/css">
-  <!-- fonts awesome icons -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-    crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOM Manipulation</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <!-- fonts awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 </head>
 
 <body>
-  <!-- App description -->
-  <header class="item-description">
-    <h1>Shopping List</h1>
-    <p id="first">Get it done today</p>
-  </header>
+    <!-- App description -->
+    <header class="item-description">
+        <h1>Shopping List</h1>
+        <p id="first">Get it done today</p>
+    </header>
 
-  <!-- user input list item  and buttons-->
-  <section class="input-field">
-    <input id="userinput" type="text" placeholder="shopping items"><br>
-    <button id="enter">Add Items</button>
-    <button id="clear">Clear Items</button>
-  </section>
+    <!-- user input list item  and buttons-->
+    <section class="input-field">
+        <input id="userinput" type="text" placeholder="shopping items"><br>
+        <button id="enter">Add Items</button>
+        <button id="clear">Clear Items</button>
+    </section>
 
-  <!-- list created by DOM -->
-  <section id="list-creation">
-    <ul>
-      <!-- <li random="23">Notebook</li>
-          <li>Rice</li>
-          <li>Vegetable</li>
-          <li>Mopping stick</li>
-          <li>Clothe basket</li> -->
-    </ul>
-  </section>
+    <!-- list created by DOM -->
+    <section>
+      <!-- <div class="list-creation"> -->
+        <ul class="ordered-list"></ul>
+      <!-- </div> -->
+    </section>
 
-  <!-- footer -->
-  <!-- <footer id="footer">
+    <!-- footer -->
+    <!-- <footer id="footer">
     Copyright (c) 2019 <a href="/"><strong>Zero To Mastery</strong></a> All Rights Reserved.
   </footer> -->
-  <script src="./app.js"></script>
+    <script src="./app.js"></script>
 </body>
 
 </html>
