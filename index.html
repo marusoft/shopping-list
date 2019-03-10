@@ -2,47 +2,64 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>DOM Manipulation</title>
-  <link rel="stylesheet" href="./style.css" type="text/css">
-  <!-- fonts awesome icons -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
-    crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DOM Manipulation</title>
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <!-- fonts awesome icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
 </head>
 
 <body>
-  <!-- App description -->
-  <header class="item-description">
-    <h1>Shopping List</h1>
-    <p id="first">Get it done today</p>
-  </header>
+    <!-- App description -->
+    <header class="item-description">
+        <h1>Shopping List</h1>
+        <p id="first">Get it done today</p>
+    </header>
 
-  <!-- user input list item  and buttons-->
-  <section class="input-field">
-    <input id="userinput" type="text" placeholder="shopping items"><br>
-    <button id="enter">Add Items</button>
-    <button id="clear">Clear Items</button>
-  </section>
+    <!-- Instruction -->
+    <table class="instructions-row">
+        <tr>
+            <td class="number">1</td>
+            <td class="text">Type Whatever List Item you want</td>
+        </tr>
+        <tr>
+            <td class="number">2</td>
+            <td class="text">List Item can be mark as done by clicking on it</td>
+        </tr>
+        <tr>
+            <td class="number">3</td>
+            <td class="text"> List Item can be remove by clicking on delete Icon next to list</td>
+        </tr>
+    
+    </table>
 
-  <!-- list created by DOM -->
-  <section>
-    <ul class="ordered-list">
-      <!-- <li random="23">Notebook</li>
+    <!-- user input list item  and buttons-->
+    <section class="input-field">
+        <input id="userinput" type="text" placeholder="shopping items"><br>
+        <button id="enter">Add Items</button>
+        <button id="clear">Clear Items</button>
+    </section>
+
+    <!-- list created by DOM -->
+    <section>
+        <ul class="ordered-list">
+            <!-- <li random="23">Notebook</li>
           <li>Rice</li>
           <li>Vegetable</li>
           <li>Mopping stick</li>
           <li>Clothe basket</li> -->
-    </ul>
-  </section>
+        </ul>
+    </section>
 
-  <!-- footer -->
-  <!-- <footer id="footer">
+    <!-- footer -->
+    <!-- <footer id="footer">
     Copyright (c) 2019 <a href="/"><strong>Zero To Mastery</strong></a> All Rights Reserved.
   </footer> -->
-  <script src="./app.js"></script>
+    <script src="./app.js"></script>
 </body>
 
 </html>
